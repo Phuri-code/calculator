@@ -1,3 +1,4 @@
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -18,7 +19,7 @@ public class Main extends Application{
         stage.setScene(scene);
         stage.setTitle("Mini Project 001");
         // stage.setFullScreen(false);
-        stage.getIcons().add(new Image(getClass().getResourceAsStream("image.png")));
+        stage.getIcons().add(new Image(getClass().getResourceAsStream("asset/image.png")));
         stage.show();
     }
 }

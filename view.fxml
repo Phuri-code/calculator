@@ -8,7 +8,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <children>
       <Label layoutX="160.0" layoutY="69.0" text="Mini Project 001">
@@ -18,12 +17,12 @@
       </Label>
       <ImageView fitHeight="76.0" fitWidth="84.0" layoutX="24.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@photo_2026-05-22_13-53-43.jpg" />
+            <Image url="@./asset/photo_2026-05-22_13-53-43.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="87.0" fitWidth="85.0" layoutX="455.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@photo_2026-05-22_13-53-39.jpg" />
+            <Image url="@./asset/photo_2026-05-22_13-53-39.jpg" />
          </image>
       </ImageView>
       <TextField fx:id="textfield_num1" layoutX="76.0" layoutY="199.0" />
