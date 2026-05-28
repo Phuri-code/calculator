@@ -20,6 +20,20 @@ public class Controller {
 
     @FXML
     void on_calculate(ActionEvent event) {
+        // System.out.println("Button clicked!");
+        String str_num1 = textfield_num1.getText();
+        String str_num2 = textfield_num2.getText();
+
+        System.out.println(str_num1);
+        System.out.println(str_num2);
+
+        double db_num1 = Double.parseDouble(str_num1);
+        double db_num2 = Double.parseDouble(str_num2);
+        double sum = db_num1 + db_num2;
+        // System.out.println("sum : " + sum);
+        String str_sum = Double.toString(sum);
+        label_result.setText(str_sum);
+
 
     }
 
