@@ -1,6 +1,7 @@
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 public class Main extends Application{
@@ -15,7 +16,9 @@ public class Main extends Application{
         loader.setLocation(getClass().getResource("view.fxml"));
         Scene scene = new Scene(loader.load());
         stage.setScene(scene);
-        stage.setTitle(STYLESHEET_CASPIAN);
+        stage.setTitle("Mini Project 001");
+        // stage.setFullScreen(false);
+        stage.getIcons().add(new Image(getClass().getResourceAsStream("image.png")));
         stage.show();
     }
 }
