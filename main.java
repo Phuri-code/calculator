@@ -13,14 +13,14 @@ public class Main extends Application{
 
     @Override
     public void start(Stage stage) throws Exception {
-        FXMLLoader loader = new FXMLLoader();
+         FXMLLoader loader = new FXMLLoader();
 
         loader.setLocation(getClass().getResource("view.fxml"));
         Scene scene = new Scene(loader.load());
         stage.setScene(scene);
-        stage.setTitle("Mini Project 001");
+        //stage.setTitle("Mini Project 001");
         // stage.setFullScreen(false);
-        stage.getIcons().add(new Image(getClass().getResourceAsStream("asset/image.png")));
+        //stage.getIcons().add(new Image(getClass().getResourceAsStream("asset/image.png")));
         stage.show();
     }
 }
