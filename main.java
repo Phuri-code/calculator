@@ -22,5 +22,6 @@ public class Main extends Application{
         // stage.setFullScreen(false);
         //stage.getIcons().add(new Image(getClass().getResourceAsStream("asset/image.png")));
         stage.show();
+        //helo
     }
 }
